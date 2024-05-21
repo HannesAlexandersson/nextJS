@@ -37,6 +37,12 @@ export default function Navbar() {
             <Li>
                 <StyledLink href="/about">About</StyledLink>
             </Li>      
+            <Li>
+                <StyledLink href="/projects">Projects</StyledLink>
+            </Li>     
+            <Li>
+              <StyledLink href="/merch">Merchandize</StyledLink>
+            </Li>
         </Ul>
      </Nav>
     );
