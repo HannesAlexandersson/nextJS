@@ -16,22 +16,22 @@ export default async function Merch() {
     }
 
     return (
-        <>
+        <main className="overlay">
         <h1>My Products:</h1>
         <div className={style.prodCont}>
             {products.products.map((product) => (
                 <div key={product.id} className={style.prodWrap}>
-                  <div className={style.prodBox}>
-                    <h3>{product.title}</h3>
-                    <p>From: {product.brand}</p>
-                    <p>Price: {product.price}</p>
-                    <p>Stock left: {product.stock} </p> 
+                    <div className={style.prodBox}>
+                        <h3>{product.title}</h3>
+                        <p>From: {product.brand}</p>
+                        <p>Price: {product.price}</p>
+                        <p>Stock left: {product.stock} </p> 
                     </div>                
                   <button className={style.btn}>BUY</button>
                 </div>
             ))}
             </div>
-        </>
+        </main>
     );
 }
 

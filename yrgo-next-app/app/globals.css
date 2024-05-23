@@ -4,6 +4,18 @@ body{
 }
 main{
   min-height: calc(100vh - 2.75rem);
+  background-image: url('/blåvitt.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.overlay{
   border-image: fill 1 linear-gradient(hsl(0 100% 50% / .5),hsl(39 100% 50% / .5),hsl(60 100% 50% / .5),hsl(120 100% 25% / .5),hsl(240 100% 50% / .5),hsl(275 100% 25% / .5),hsl(300 76% 72% / .3));/*ROYGBIV*/
-  
+  border-image: fill 1 linear-gradient(hsl(0 100% 50% / .3), hsl(240 100% 50% / .3));
+}
+.projectsWrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  gap: 1rem;
 }

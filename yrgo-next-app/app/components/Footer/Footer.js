@@ -1,6 +1,4 @@
 'use client'
-import { createContext } from 'react'
-import Link from 'next/link';
 import styled from 'styled-components';
 
 const FooterMain = styled.footer`
@@ -9,8 +7,7 @@ const FooterMain = styled.footer`
     background-color: #227;
     padding: 1rem;
     position: relative;
-    bottom: 0;
-    margin-top: 5rem;
+    bottom: 0;    
 `;
 
 const WrapperDiv = styled.div`

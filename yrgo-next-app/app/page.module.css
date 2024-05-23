@@ -2,13 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+ 
 }
 
 .wrapper > h1{
   font-size: 1.25em;
   text-decoration: dotted;
-  color: white
+  color: white;
+  margin-top: 5rem;
 }
 
 .cont{
@@ -16,6 +17,12 @@
   justify-content: center;
   align-items: center;  
   flex-direction: column;
-  color: white
+  color: white;
 
+}
+.myImage{
+  border-width: 5px;
+  border-style: solid;
+  border-image-source: linear-gradient(hsl(0 100% 50% / .5),hsl(39 100% 50% / .5),hsl(60 100% 50% / .5),hsl(120 100% 25% / .5),hsl(240 100% 50% / .5),hsl(275 100% 25% / .5),hsl(300 76% 72% / .3));
+  border-image-slice: 1;
 }
