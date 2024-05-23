@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: lightgray;
+    color: white;   
 }
 .wrapper > h1{
     font-size: 1.25em;
