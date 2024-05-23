@@ -1,0 +1,10 @@
+.first{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    
+}
+.first > p{
+    font-size: .7em;
+}

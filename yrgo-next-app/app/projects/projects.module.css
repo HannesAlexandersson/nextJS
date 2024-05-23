@@ -1,0 +1,11 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.wrapper > h1{
+    font-size: 2em;
+}
+.wrapper > p{
+    font-size: 1.1em;
+}
