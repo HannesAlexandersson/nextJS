@@ -19,3 +19,34 @@ main{
   max-width: 900px;
   gap: 1rem;
 }
+.contactForm{
+  display: flex;
+    flex-direction: column;
+    padding: 8rem 5rem;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+.formFields{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.submitbtn{
+  background: black;
+  color: white;
+  border-radius: 22px;
+  padding: .725rem 2rem;
+}
+.submitbtn:disabled{
+  opacity: 1;
+}
+.msgBox{
+  padding: 2.5rem;
+}
+.msgBox > h1{
+  color: whitesmoke;
+  font-size: 1.1em;
+  font-weight: 600;
+}

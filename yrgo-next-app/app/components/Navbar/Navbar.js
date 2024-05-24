@@ -27,6 +27,10 @@ export default function Navbar() {
               <Link className={style.link} href="/merch" >Merchandize</Link>
             </li>
 
+            <li className={style.listgrej}>
+              <Link className={style.link} href="/contact" >Contact</Link>
+            </li>   
+
         </ul>
      </div>
     );
